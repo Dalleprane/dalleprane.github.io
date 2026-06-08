@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Paulo Dalleprane - Tech Leader, Cientista de Dados e Perito Criminal. Conheça meus projetos de ciência de dados aplicados ao Direito e à Perícia Forense.">
+    <title>Paulo Dalleprane | Tech Leader, Dados & Perícia Criminal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <img src="logo.png" alt="Logo" style="height: 55px; border-radius: 4px;">
+            <span style="font-family: var(--font-primary); font-weight: 800; font-size: 1.5rem; letter-spacing: -0.5px;">Paulo.Dalleprane</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#identidade">Marca</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="nav-toggle" id="navToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="hero-content">
+                <span class="badge">Olá, seja bem-vindo ao meu portfólio</span>
+                <h1>Eu sou o <span class="highlight">Paulo Dalleprane</span></h1>
+                <h2>E atuo como <span class="typing-text" id="typingText"></span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    Unindo conhecimentos jurídicos, perícia forense e inteligência de dados para resolver problemas complexos, automatizar processos e gerar insights estratégicos.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projetos" class="btn btn-primary">Ver Meus Projetos <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contato" class="btn btn-secondary">Fale Comigo <i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-subtitle">Minha Trajetória</span>
+                    <h2 class="section-title">Sobre Mim</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-avatar-container">
+                        <div class="about-avatar-glow"></div>
+                        <div class="about-avatar" style="overflow: hidden; display: flex; justify-content: center; align-items: center; background-color: var(--bg-card);">
+                            <img src="logo.png" alt="Paulo Dalleprane Logo" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <h3>A intersecção entre o Direito, a Investigação e a Tecnologia</h3>
+                        <p>
+                            Sou formado em **Direito**, pós-graduado em **Perícia Criminal** e pós-graduado em **Ciência de Dados**. Atualmente, atuo como **Tech Leader** da equipe de suporte da Positivo S+ no CNPq.
+                        </p>
+                        <p>
+                            Minha jornada é marcada por uma busca contínua por inovação. Com mais de 1000 horas de capacitação técnica em ciência de dados em parceria com o governo de Goiás, me especializei em aplicar métodos quantitativos, inteligência artificial e análise de dados estruturados e não estruturados a cenários complexos de segurança, auditoria e conformidade legal.
+                        </p>
+                        <div class="quick-facts">
+                            <div class="fact-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Direito & Perícia Forense</span>
+                            </div>
+                            <div class="fact-item">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Ciência de Dados (1000h+)</span>
+                            </div>
+                            <div class="fact-item">
+                                <i class="fa-solid fa-users-gear"></i>
+                                <span>Tech Leader na Positivo S+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Section -->
+        <section id="identidade" class="brand-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-subtitle">Identidade Visual</span>
+                    <h2 class="section-title">O Conceito da Marca</h2>
+                </div>
+                <div class="brand-grid">
+                    <div class="brand-image-container">
+                        <img src="logo.png" alt="Conceito da Logo Paulo Dalleprane" class="brand-logo-large">
+                    </div>
+                    <div class="brand-info">
+                        <p class="brand-intro">
+                            Minha marca foi desenhada para representar a fusão de três pilares fundamentais da minha atuação profissional e acadêmica.
+                        </p>
+                        <div class="brand-pillars">
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                                <div>
+                                    <h4>Direito & Justiça</h4>
+                                    <p>Representado pela base sólida e o equilíbrio, trazendo a conformidade legal e a ética para o centro de qualquer solução tecnológica.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-fingerprint"></i></div>
+                                <div>
+                                    <h4>Perícia Criminal</h4>
+                                    <p>Simboliza a investigação minuciosa, a busca pela verdade material e a análise detalhada de evidências, essenciais na segurança e auditoria.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
+                                <div>
+                                    <h4>Ciência de Dados</h4>
+                                    <p>A tecnologia e a inteligência artificial como ferramentas transformadoras para analisar grandes volumes de informações e extrair insights.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="habilidades" class="skills-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-subtitle">O que eu faço</span>
+                    <h2 class="section-title">Minhas Especialidades</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Card 1: Ciência de Dados -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3>Ciência de Dados & IA</h3>
+                        <p>Análise de dados, desenvolvimento de modelos preditivos (Machine Learning), processamento de linguagem natural (NLP) e visualização de dados.</p>
+                        <ul class="skill-tags">
+                            <li>Python</li>
+                            <li>Pandas/Numpy</li>
+                            <li>Scikit-Learn</li>
+                            <li>SQL</li>
+                            <li>NLP</li>
+                            <li>Power BI</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2: Perícia Forense -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <i class="fa-solid fa-fingerprint"></i>
+                        </div>
+                        <h3>Perícia Criminal & Forense</h3>
+                        <p>Investigação digital, detecção de fraudes em transações, análise forense de logs e auditoria de sistemas de segurança da informação.</p>
+                        <ul class="skill-tags">
+                            <li>Detecção de Anomalias</li>
+                            <li>Forense Digital</li>
+                            <li>Análise de Logs</li>
+                            <li>Segurança</li>
+                            <li>Auditoria</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3: Direito & Compliance -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <h3>Direito & LegalTech</h3>
+                        <p>Análise de conformidade regulatória (LGPD), automação de fluxos jurídicos, inteligência de dados aplicada a processos judiciais.</p>
+                        <ul class="skill-tags">
+                            <li>LGPD</li>
+                            <li>Direito Digital</li>
+                            <li>Compliance</li>
+                            <li>Análise Contratual</li>
+                            <li>Legal Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projetos" class="projects-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-subtitle">Meus Trabalhos</span>
+                    <h2 class="section-title">Projetos em Destaque</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-file-shield project-icon"></i>
+                            <div class="project-badge">Em Desenvolvimento</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Analisador Inteligente de Processos Jurídicos</h3>
+                            <p>Utilização de Processamento de Linguagem Natural (NLP) para ler petições jurídicas, classificar o tipo de processo e sugerir jurisprudências relacionadas automaticamente.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>Spacy</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <span class="project-link-disabled">Construindo juntos... <i class="fa-solid fa-hourglass-half"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-magnifying-glass-chart project-icon"></i>
+                            <div class="project-badge">Em Planejamento</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Detector de Fraudes Financeiras</h3>
+                            <p>Algoritmo de aprendizado não supervisionado focado em perícia criminal para analisar conjuntos de dados financeiros e identificar transações de alta suspeita (anomalias).</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-Learn</span>
+                                <span>Pandas</span>
+                                <span>Machine Learning</span>
+                            </div>
+                            <span class="project-link-disabled">Próximo na fila... <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-map-location-dot project-icon"></i>
+                            <div class="project-badge">Em Planejamento</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Painel Analítico de Segurança Pública</h3>
+                            <p>Dashboard interativo com visualizações geográficas e estatísticas de dados criminais públicos para identificar padrões de comportamento e áreas de alto risco.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Dash/Plotly</span>
+                                <span>Geopandas</span>
+                                <span>Data Viz</span>
+                            </div>
+                            <span class="project-link-disabled">Futuro projeto... <i class="fa-solid fa-clock"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-subtitle">Vamos conversar?</span>
+                    <h2 class="section-title">Contato</h2>
+                </div>
+                <div class="contact-card">
+                    <p class="contact-lead">Estou aberto a novas oportunidades remotas de trabalho na área de dados, consultoria forense e tecnologia.</p>
+                    <div class="contact-methods">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <span>Conectar no LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                            <span>Ver repositórios no GitHub</span>
+                        </a>
+                        <a href="mailto:paulo.dalleprane@exemplo.com" class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <span>paulo.dalleprane@exemplo.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Paulo Dalleprane. Desenvolvido com <i class="fa-solid fa-heart accent-color"></i> em parceria com Antigravity.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
